@@ -1,0 +1,23 @@
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+tr:nth-of-type(odd) {
+    background: lightgray;
+}
+
+th {
+    background: blueviolet ;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    padding: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 18px;
+}
